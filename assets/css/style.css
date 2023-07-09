@@ -2,6 +2,17 @@ input:valid + small {
     display: none;
 }
 
-input:valid + small + small{
+input:invalid + small + small{
     display: none;
+}
+
+body{
+    padding: 30px;
+}
+
+button{
+    width: 400px;
+    background-color: rgba(52, 191, 52, 0.516);
+    padding: 5px;
+    border-radius: 50px;
 }
